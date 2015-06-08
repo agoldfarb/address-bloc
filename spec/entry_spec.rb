@@ -1,4 +1,4 @@
-Rspec.describe Entry do 
+RSpec.describe Entry do 
   context "attributes" do
     it "should respond to name" do
       entry = Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')
