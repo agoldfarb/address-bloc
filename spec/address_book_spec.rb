@@ -34,7 +34,18 @@
        expect(new_entry.email).to eq 'augusta.king@lovelace.com'
      end
    end
- end
+
+   context "remove_entry" do
+    it "removes one entry" do
+      book = AddressBook.new
+      book.remove_entry('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')
+      new_entry = nil
+
+      expect(new_entry.name).to eq nil
+      expect(new_entry.phone_number).to eq nil
+      expect(new_entry.email).to eq nil
+    end
+    end
 
 
 
