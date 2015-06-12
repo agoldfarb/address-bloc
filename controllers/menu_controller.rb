@@ -3,7 +3,7 @@ require_relative "../models/address_book"
 class MenuController
   attr_accessor :address_book
 
-  def initizalize 
+  def initialize 
     @address_book = AddressBook.new
   end
 
@@ -98,3 +98,4 @@ class MenuController
      end
    end
  end
+end
