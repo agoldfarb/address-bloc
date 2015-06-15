@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"import",
+				"import_from_csv"
+			],
+			[
+				"entry",
+				"entry_one"
+			],
+			[
+				"check",
+				"check_entry"
+			],
+			[
+				"impo",
+				"import_from_csv"
+			],
+			[
+				"row",
+				"row_hash"
+			],
+			[
+				"phone",
+				"phone_number"
+			],
+			[
+				"fil",
+				"file_name"
+			],
+			[
+				"entries",
+				"entries_2"
+			],
+			[
+				"entrie",
+				"entries_2"
+			],
+			[
+				"boo",
+				"book_size"
+			],
+			[
+				"add",
+				"address_book"
+			],
+			[
+				"ne",
+				"new_entry"
+			],
+			[
+				"new",
+				"new_entry"
+			],
+			[
+				"nw",
+				"new_entry"
+			],
+			[
+				"remo",
+				"remove_entry"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"p",
+				"phone_number"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/allisongoldfarb/development/address-bloc/spec/address_book_spec.rb",
+		"/Users/allisongoldfarb/development/address-bloc/models/address_book.rb",
+		"/Users/allisongoldfarb/development/address-bloc/address_bloc.rb",
+		"/Users/allisongoldfarb/development/address-bloc/address_book.rb",
+		"/Users/allisongoldfarb/development/address-bloc/spec/address_bloc_spec.rb",
+		"/Users/allisongoldfarb/development/address-bloc/entries.csv",
+		"/Users/allisongoldfarb/Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings",
+		"/Users/allisongoldfarb/development/address-bloc/models/entry.rb",
+		"/Users/allisongoldfarb/development/address-bloc/entries.rb",
+		"/Users/allisongoldfarb/development/address-bloc/entry.rb",
+		"/Users/allisongoldfarb/development/address-bloc/spec/entry_spec.rb",
+		"/Users/allisongoldfarb/development/address-bloc/models/address_book_spec.rb",
+		"/Users/allisongoldfarb/code/first-app/config/application.rb",
+		"/Users/allisongoldfarb/development/address-bloc/controllers/menu_controller.rb",
+		"/Users/allisongoldfarb/development/address_bloc.rb",
+		"/Users/allisongoldfarb/development/address-bloc/cotrollers/menu_controller.rb",
+		"/Users/allisongoldfarb/development/address-bloc/menu_controller.rb",
+		"/Users/allisongoldfarb/code/first-app/app/controllers/application_controller.rb",
+		"/Users/allisongoldfarb/development/address-bloc/entry",
+		"/Users/allisongoldfarb/development/address-bloc/models/entry.r",
+		"/Users/allisongoldfarb/development/address-bloc/entry_spec.rb",
+		"/Users/allisongoldfarb/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/allisongoldfarb/Library/Application Support/Sublime Text 3/Packages/User/hello_world.rb",
+		"/Users/allisongoldfarb/Library/Application Support/Sublime Text 3/Packages/User/import urllib.request,os,hashlib; h = 'eb2297e1a45"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"book = Addr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "address-bloc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
