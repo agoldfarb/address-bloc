@@ -39,7 +39,7 @@ RSpec.describe AddressBook do
       book.import_from_csv("entries_2.csv")
       book_size = book.entries.size
 
-      expect(book_size).to eql 5
+      expect(book_size).to eql 3
     end
 
     it  "checks the details of the first entry" do
