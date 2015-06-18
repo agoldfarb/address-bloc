@@ -14,33 +14,38 @@ class MenuController
      puts "3 - Search for an entry"
      puts "4 - Import entries from a CSV"
      puts "5 - Exit"
+     puts "6 - Delete all entries"
      print "Enter your selection: "
      selection = gets.to_i
      
      case selection
      when 1
-       system "clear"
-       view_all_entries
-       main_menu
+      system "clear"
+      view_all_entries
+      main_menu
      when 2
-       system "clear"
-       create_entry
-       main_menu
+      system "clear"
+      create_entry
+      main_menu
      when 3
-       system "clear"
-       search_entries
-       main_menu
+      system "clear"
+      search_entries
+      main_menu
      when 4
-       system "clear"
-       read_csv
-       main_menu
+      system "clear"
+      read_csv
+      main_menu
      when 5
-       puts "Good-bye!"
-       exit(0)
+      puts "Good-bye!"
+      exit(0)
+     when 6
+      system "clear"
+      demolish
+      main_menu
      else
       system "clear"
-       puts "Sorry, that is not a valid input"
-       main_menu
+      puts "Sorry, that is not a valid input"
+      main_menu
      end
    end
 
@@ -55,7 +60,7 @@ class MenuController
     puts "End of entries"
    end
 
-   def create_entry
+  def create_entry
     system "clear"
     puts "New AddressBloc Entry"
     print "Name: "
@@ -68,7 +73,7 @@ class MenuController
 
     system "clear"
     puts "New entry created"
-   end
+  end
 
   def search_entries
     print "Search by name: "
@@ -176,5 +181,8 @@ class MenuController
      end
    end
 
-
+  def demolish
+    @address_book.entries.clear
+    puts "Address Book entries have been deleted"
+  end
  end
